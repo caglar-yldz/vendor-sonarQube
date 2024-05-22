@@ -15,7 +15,7 @@ const BarChartProject = ({ efforts }) => {
   const goToPreviousMonth = () => {
     setMonth((currentMonth - 1 + 12) % 12); // Go to the previous month
   };
-  
+  //
   const goToNextMonth = () => {
     setMonth((currentMonth + 1) % 12); // Go to the next month
   };
