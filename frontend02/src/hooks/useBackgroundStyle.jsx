@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 const useBackgroundStyle = () => {
+  //
   useEffect(() => {
     document.body.style.backgroundColor = '#f9f9f9';
     document.body.style.backgroundSize = 'cover';
