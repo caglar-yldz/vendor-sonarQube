@@ -1,0 +1,28 @@
+.primary {
+  border-radius: 6px;
+  border: 1px solid var(--colorPrimaryBase, #0057d9);
+  background: var(--colorPrimaryBase, #0057d9);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+  display: inline-flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 76px;
+  height: 40px;
+  color: white;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.primary:hover {
+  background: var(--colorPrimaryBase, #4096FF);
+  border: 1px solid var(--colorPrimaryBase, #4096FF);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+.primary:active{
+  background: var(--colorPrimaryBase, #0150C7);
+  border: 1px solid var(--colorPrimaryBase, #0150C7);
+}
+

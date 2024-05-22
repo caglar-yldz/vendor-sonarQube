@@ -1,0 +1,7 @@
+backend/node_modules
+backend/.env
+frontend02/node_modules
+frontend02/.env
+./rest
+backend/feFiles
+backend/files

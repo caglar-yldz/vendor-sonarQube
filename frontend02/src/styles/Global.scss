@@ -1,0 +1,118 @@
+.table-title {
+  color: var(--colorTextHeading, rgba(0, 0, 0, 0.88));
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+
+.table-count{
+    color: var(--colorText, rgba(0, 0, 0, 0.88));
+    font-family: "SF Pro Text", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    margin-bottom: 12px;
+}
+
+th{
+  border-bottom: 1px solid #0000000F;
+}
+th::before{
+  
+  border-right: 1px solid #0000000F;
+}
+
+td{
+  border-top: 4px solid #F9F9F9;
+  
+}
+
+.clickable{
+
+  td:hover{
+    cursor: pointer;
+  }
+}
+
+.rotate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotate {
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.notificationBell {
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.3s;
+  position: relative;
+}
+
+.notificationCount {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+
+.notificationBell:hover {
+  background-color: #00000025;
+}
+
+:where(.css-dev-only-do-not-override-13aswo6).ant-drawer .ant-drawer-body {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+  overflow: auto;
+}
+
+:where(.css-13aswo6).ant-drawer .ant-drawer-body {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.effort-input{
+  border-bottom: 1px solid #000000a0;
+  border-radius: 0;
+  font-size: 18px;
+  width: 40px;
+  background-color: #00000000;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  margin: 0;
+
+}
+
+.effort-input:focus {
+  outline: none; /* Remove the default outline */
+}
+

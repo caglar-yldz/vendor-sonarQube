@@ -1,0 +1,112 @@
+.body {
+  background-color: #f9f9f9;
+}
+
+.content {
+  border: none;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.card-container-centered {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.card-content {
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 20px;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.card-content strong {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.card-row {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 18px;
+  margin-top: 15px;
+}
+
+.select-input {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.textarea-input {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.custom-margin {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.label-above {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.card-content strong {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.label-above {
+  color: black;
+}
+
+.label-above::after {
+  content: "*";
+  color: black;
+}
+
+.label-above.required::after {
+  color: red;
+}
+
+.cart-details-contents-title{
+  font-size: 24px; 
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cart-details-contents-subtitle{
+  font-size: 18px; 
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.cart-details-contents-subtitle-text{
+  font-size: 18px; 
+ color: #8F8F8F;
+}
+
+.cart-details-contents-left-space{
+  padding-left: 1rem;
+}

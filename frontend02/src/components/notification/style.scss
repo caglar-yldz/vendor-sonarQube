@@ -1,0 +1,39 @@
+.notificationCard {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  transition: 0.3s;
+}
+
+.notificationCard:hover {
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+.notificationTitle {
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+.notificationDescription {
+  color: #000000c0;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  max-height: 3.6em;
+  line-height: 1.2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.notificationCard:active {
+  background-color: #d9d9d9;
+}
+.timeAgo {
+  color: #000000c0;
+  text-align: end;
+}
+.isReadIcon {
+    text-align: start;
+    padding-left: 2px;
+}

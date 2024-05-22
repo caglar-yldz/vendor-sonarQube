@@ -1,0 +1,18 @@
+
+
+.custom-select .ant-select-selector {
+    color: #0057D9; /* Change text color */
+  }
+  
+  .custom-select .ant-select-arrow {
+    color: #0057D9; /* Change arrow color */
+  }
+  
+  .custom-select .ant-select-selection-placeholder {
+    color: #0057D9; /* Change placeholder color */
+  }
+  
+  .custom-select .ant-select-selection-item {
+    color: #0057D9; /* Change selected item color */
+  }
+  

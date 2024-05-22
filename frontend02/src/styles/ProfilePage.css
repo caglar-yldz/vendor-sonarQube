@@ -1,0 +1,55 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-user{
+    text-align: center;
+  }
+
+
+  .text-sender-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .text-input {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Metin alanının yatay boyutunu değiştirme izni */
+  }
+  
+  .send-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
